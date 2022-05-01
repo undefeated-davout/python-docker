@@ -1,9 +1,9 @@
 version: '3.7'
 services:
   app:
-    # build: .
-    image: teruzoufox/python-docker
-    container_name: python-docker.app
+    build: .
+    container_name: python
     tty: true
     volumes:
-      - ./share:/share
+      - .:/opt/src/app
+
