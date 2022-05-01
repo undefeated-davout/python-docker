@@ -1,4 +1,4 @@
-version: '3.7'
+version: "3.8"
 services:
   app:
     build: .
@@ -6,4 +6,3 @@ services:
     tty: true
     volumes:
       - .:/opt/src/app
-
