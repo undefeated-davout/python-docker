@@ -5,4 +5,4 @@ services:
     container_name: python
     tty: true
     volumes:
-      - .:/opt/src/app
+      - .:/share
